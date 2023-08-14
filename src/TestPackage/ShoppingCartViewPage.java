@@ -29,7 +29,9 @@ public class ShoppingCartViewPage {
 	}
 
 	public void clearEmailField() {
+		//if (driver.findElement(emailField).getText().equals("")) {
 		driver.findElement(emailField).clear();
+		//}
 	}
 
 	public void clearPasswordField() {

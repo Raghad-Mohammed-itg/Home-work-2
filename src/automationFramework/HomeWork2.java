@@ -30,10 +30,10 @@ public class HomeWork2 {
 	  System.setProperty("webdriver.chrome.driver", driverPath);
 
 	    driver = new ChromeDriver();
-//		driver.get(baseUrl);
-//		driver.findElement(By.cssSelector("button#details-button")).click();
-//		driver.findElement(By.cssSelector("a#proceed-link")).click();
-//		shoppingCartViewPage = new ShoppingCartViewPage(driver);
+		driver.get(baseUrl);
+		driver.findElement(By.cssSelector("button#details-button")).click();
+		driver.findElement(By.cssSelector("a#proceed-link")).click();
+		shoppingCartViewPage = new ShoppingCartViewPage(driver);
 	      
   }
   @DataProvider
